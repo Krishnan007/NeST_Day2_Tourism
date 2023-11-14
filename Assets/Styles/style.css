@@ -1,0 +1,18 @@
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.logomain{
+	float: left;
+	width: 70px;
+	height: auto;
+    margin-top: 15px;
+}
+.dropdown-menu{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+.dropdown-item{
+    color: white;
+}
