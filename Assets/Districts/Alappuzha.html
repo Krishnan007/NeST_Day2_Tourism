@@ -7,30 +7,40 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
     <link rel="shortcut icon" href="https://www.keralatourism.org/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="Assets/Styles/style.css">
+    <link rel="stylesheet" href="../Styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+        .district{
+            background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Images/Districts/Alappuzha/1.jpg);
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
 </head>
 <body>
     <!-- caurosol Start -->
 
     <!-- caurosol end -->
-    <header>
+    <header class="district" >
         <!-- Nav bar -->
         
 
         <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong fixed-top" style="background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));">
             <div class="container-fluid font-weight-bold">
-              <a class="navbar-brand" href="./Index.html"><img src="./Assets/Images/logo.png" alt="Logo" class="logomain"></a>
+              <a class="navbar-brand" href="../../Index.html"><img src="../Images/logo.png" alt="Logo" class="logomain"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" href="./Index.html">Home</a>
+                    <a class="nav-link active" href="../../Index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#expkel">Experience Kerala</a>
+                    <a class="nav-link disabled" href="#expkel">Experience Kerala</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -57,8 +67,8 @@
                     <a class="nav-link" href="#contact">Contact Us</a>.
                   </li>
                 </ul>
-                <a class="btn btn-outline-success mr-2" href="./Signing/Sign Up.html" role="button" data-toggle="modal" data-target="#modalSignUpForm" >Sign up</a >
-                <a class="btn btn-outline-primary mr-2" href="./Signing/Sign In.html" role="button" data-toggle="modal" data-target="#modalLoginForm" >Login</a >
+                <a class="btn btn-outline-success mr-2" href="#" role="button" data-toggle="modal" data-target="#modalSignUpForm" >Sign up</a >
+                <a class="btn btn-outline-primary mr-2" href="#" role="button" data-toggle="modal" data-target="#modalLoginForm" >Login</a >
               </div>
             
           <!-- SIGNUP END -->
@@ -67,73 +77,73 @@
         <!-- frontcontent -->
     </header>
     <div class="title">
-        <h1>KERALA TOURISM</h1>
-    </div>
-    <div class="expericeker">
-        <div id="expkel" class="subhead">
-            <h2>Experience Kerala</h2>
-        </div>
-        
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="5000">
-                <img src="Assets/Images/Caurosol/1.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="5000">
-                <img src="Assets/Images/Caurosol/2.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="5000">
-                <img src="Assets/Images/Caurosol/3.jpg" class="d-block w-100" alt="...">
-              </div>
+        <h1>Alappuzha</h1>
+    </div><center>
+    <div id="About" class="subhead">
+        <h2>Alappuzha</h2>
+        <div class="row dist1">
+            <div class="col-6">
+                <p>
+                  Alappuzha (Alleppey) is known as ‘the Venice of the East’. Offering the best tourist places in Alleppey, this charming place is the hub of Kerala’s backwaters and is home to a huge network of backwaters and more than thousand houseboats. The houseboats you find in the backwaters of Alappuzha are in fact a reworked version of the Kettuvallams of olden times. Kettuvallam is a Malayalam word, ‘Kettu’, means living structures and ‘Vallom’ means boat. In the olden days, kettuvallam or boat with a thatched roof that covers over wooden hulls was used to carry tons of rice and spices.
+                </p>    
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-
+            <div class="col-6 img2">
+                <img src="../Images/Districts/Alappuzha/2.png" alt="">
+            </div>
+        </div>
+    </center>
     </div>
 
-    <div id="contact" class="subhead">
-        <h2>Contact Us</h2>
-        <!-- Main Section start-->
+     <!-- main attraction -->
 
-    <div class="container py-4 my-4">
-        <div class="row">
-          <div class="col-lg-6">
-            <form>
-              <div class="mb-3">
-                <label for="fullName" class="form-label">Full Name</label>
-                <input type="text" class="form-control" id="fullName" aria-describedby="emailHelp" />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" />
-              </div>
-              <div class="mb-3">
-                <label for="msg" class="form-label">Message</label>
-                <textarea class="form-control" aria-label="With textarea" ></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-          </div>
-          <div class="col-lg-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15783.656570030125!2d76.9538216!3d8.5077173!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bbc89175cf99%3A0xf02ca5be8abb2741!2sDepartment%20of%20Tourism%2C%20Govt.of%20Kerala!5e0!3m2!1sen!2sin!4v1699990520831!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-        </div>
-      </div>
+  <div class="mainattra subhead row">
+    <h2>Main Attractions</h2>
+    <h3>Alleppy Backwater</h3>
+    <div class="d-flex justify-content-center margins col-3">
+      <img class="img2" src="../Images/Districts/Alappuzha/Attractions/1.jpg" alt="">
+    </div>
+    <div class="col-6">
+      While searching for the most popular backwater destinations in Kerala, Alleppey is one such destination that must not be missed in any ways! Located on the banks of the prismatic Vembanad Lake, this gorgeous city is the ‘Mecca’ for the backwater vacationers on a Kerala trip!
+Fringed with lush coconut groves, adorned with endless lagoons, and embraced by the charm of silent backwaters, Alleppey is a paradise for the visitors! Owing to the swaying beauty and enchanting charm of this city, it is also often called the ‘Venice of the East’, and is one of the most popular backwaters destinations in Kerala.
+    </div>
+  </div>
+  </div>
   
-      <!-- Main Section end-->
+  <div class="mainattra subhead row">
+    <h3>International Coir Museum</h3>
+    <div class="d-flex justify-content-center margins col-3">
+      <img class="img2" src="../Images/Districts/Alappuzha/Attractions/2.jpg" alt="">
+    </div>
+    <div class="col-6">
+      The International Coir museum is an embellishment to the coir industry of Kerala. Located in Kalavoor, Alleppey, this museum showcases its history and journey over the ages in transforming fibre into beautiful products. Working on the theme, "coir beautiful"; the process and extraction of fibre to the mechanization of the coir sector are all exhibited at the museum. Visitors can even buy handicrafts, coir ornaments and other products from their small souvenir shop at the museum.
+    </div>
+  </div>
+  </div>
+  
+  <div class="mainattra subhead row">
+    <h3>Alleppy Beach</h3>
+    <div class="d-flex justify-content-center margins col-3">
+      <img class="img2" src="../Images/Districts/Alappuzha/Attractions/3.jpg" alt="">
+    </div>
+    <div class="col-6">
+      The Alappuzha beach, also known as the Alleppey Beach, is famous for local getaways, its intrinsic beauty and a 150 years old pier which stretches into the sea. Relaxing under the palm groves and picnicking beside the beach are fantastic options available to those visiting the beach. Alleppey Beach is a host to many festivals like Sand Art festival and Alappuzha Beach Festival.
+    </div>
+  
+  </div>
+  </div>
+
+   <!-- main attraction -->
+  
     <!-- frontcontent end -->
 
     <!-- Footer start -->
-    <footer class="text-center text-white" style="background-color: #f1f1f1">
+    <footer class="text-center text-white" style="background-color: #f1f1f1" id="contact">
         <!-- Grid container -->
+        
         <div class="container pt-4">
+            <div class="footcopy">
+                Kerala Tourism
+            </div>
           <!-- Section: Social media -->
             <!-- Facebook -->
             <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.facebook.com/keralatourismofficial" role="button" data-mdb-ripple-color="dark" ><i class="fa fa-facebook-f"></i ></a>

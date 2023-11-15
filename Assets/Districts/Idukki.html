@@ -7,30 +7,40 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
     <link rel="shortcut icon" href="https://www.keralatourism.org/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="Assets/Styles/style.css">
+    <link rel="stylesheet" href="../Styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+        .district{
+            background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Images/Districts/change/1.jpg);
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
 </head>
 <body>
     <!-- caurosol Start -->
 
     <!-- caurosol end -->
-    <header>
+    <header class="district" >
         <!-- Nav bar -->
         
 
         <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong fixed-top" style="background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));">
             <div class="container-fluid font-weight-bold">
-              <a class="navbar-brand" href="./Index.html"><img src="./Assets/Images/logo.png" alt="Logo" class="logomain"></a>
+              <a class="navbar-brand" href="../../Index.html"><img src="../Images/logo.png" alt="Logo" class="logomain"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" href="./Index.html">Home</a>
+                    <a class="nav-link active" href="../../Index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#expkel">Experience Kerala</a>
+                    <a class="nav-link disabled" href="#expkel">Experience Kerala</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -57,8 +67,8 @@
                     <a class="nav-link" href="#contact">Contact Us</a>.
                   </li>
                 </ul>
-                <a class="btn btn-outline-success mr-2" href="./Signing/Sign Up.html" role="button" data-toggle="modal" data-target="#modalSignUpForm" >Sign up</a >
-                <a class="btn btn-outline-primary mr-2" href="./Signing/Sign In.html" role="button" data-toggle="modal" data-target="#modalLoginForm" >Login</a >
+                <a class="btn btn-outline-success mr-2" href="#" role="button" data-toggle="modal" data-target="#modalSignUpForm" >Sign up</a >
+                <a class="btn btn-outline-primary mr-2" href="#" role="button" data-toggle="modal" data-target="#modalLoginForm" >Login</a >
               </div>
             
           <!-- SIGNUP END -->
@@ -67,73 +77,55 @@
         <!-- frontcontent -->
     </header>
     <div class="title">
-        <h1>KERALA TOURISM</h1>
-    </div>
-    <div class="expericeker">
-        <div id="expkel" class="subhead">
-            <h2>Experience Kerala</h2>
-        </div>
-        
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="5000">
-                <img src="Assets/Images/Caurosol/1.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="5000">
-                <img src="Assets/Images/Caurosol/2.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="5000">
-                <img src="Assets/Images/Caurosol/3.jpg" class="d-block w-100" alt="...">
-              </div>
+        <h1>change</h1>
+    </div><center>
+    <div id="About" class="subhead">
+        <h2>change</h2>
+        <div class="row dist1">
+            <div class="col-6">
+                <p>
+                    para
+                </p>    
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-
+            <div class="col-6 img2">
+                <img src="../Images/Districts/change/2.png" alt="">
+            </div>
+        </div>
+    </center>
     </div>
 
-    <div id="contact" class="subhead">
-        <h2>Contact Us</h2>
-        <!-- Main Section start-->
-
-    <div class="container py-4 my-4">
-        <div class="row">
-          <div class="col-lg-6">
-            <form>
-              <div class="mb-3">
-                <label for="fullName" class="form-label">Full Name</label>
-                <input type="text" class="form-control" id="fullName" aria-describedby="emailHelp" />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" />
-              </div>
-              <div class="mb-3">
-                <label for="msg" class="form-label">Message</label>
-                <textarea class="form-control" aria-label="With textarea" ></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-          </div>
-          <div class="col-lg-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15783.656570030125!2d76.9538216!3d8.5077173!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bbc89175cf99%3A0xf02ca5be8abb2741!2sDepartment%20of%20Tourism%2C%20Govt.of%20Kerala!5e0!3m2!1sen!2sin!4v1699990520831!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-        </div>
+       <!-- main attraction -->
+<section class="mainattrac">
+  <div class="mainattra subhead row">
+    <h2>Main Attractions</h2>
+    <h3>Sree Padmanabha Swami Temple</h3>
+    <div class="d-flex justify-content-center margins col-3">
+      <img class="img2" src="../Images/Districts/Thiruvananthapuram/Attractions/1.jpeg" alt="">
+    </div>
+      <div class="col-3">
+        The Shree Padmanabhaswamy Temple is a Hindu temple, dedicated to Vishnu, in Thiruvananthapuram, the capital of
+        the state of Kerala, India. It is one of the 108 Divya Desams dedicated to Lord Vishnu. It is widely considered
+        as the world's richest Hindu temple.
       </div>
+      <div class="col-3">കേരള സംസ്ഥാനത്തിന്റെ തലസ്ഥാനമായ തിരുവനന്തപുരം നഗരത്തിലെ പ്രസിദ്ധമായ മഹാവിഷ്ണുക്ഷേത്രമാണ് ശ്രീപത്മനാഭസ്വാമി
+        ക്ഷേത്രം. അനന്തൻ എന്ന നാഗത്തിന്റെ പുറത്ത് ലക്ഷ്മിദേവിയോടൊപ്പം ശയിക്കുന്ന മഹാവിഷ്ണുവാണ് ഏറ്റവും പ്രധാന പ്രതിഷ്ഠ.
+      </div>
+    </div>
+  </div>
+</section>
+
+   <!-- main attraction -->
   
-      <!-- Main Section end-->
     <!-- frontcontent end -->
 
     <!-- Footer start -->
-    <footer class="text-center text-white" style="background-color: #f1f1f1">
+    <footer class="text-center text-white" style="background-color: #f1f1f1" id="contact">
         <!-- Grid container -->
+        
         <div class="container pt-4">
+            <div class="footcopy">
+                Kerala Tourism
+            </div>
           <!-- Section: Social media -->
             <!-- Facebook -->
             <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.facebook.com/keralatourismofficial" role="button" data-mdb-ripple-color="dark" ><i class="fa fa-facebook-f"></i ></a>
